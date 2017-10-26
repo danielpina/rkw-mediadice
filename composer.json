@@ -1,0 +1,18 @@
+{
+  "name": "danielpina/rkw-va-entertainment",
+  "version": "1.0.0",
+  "description": "Virtual assistant to help you choose entertainment options.",
+  "keywords": ["wordpress", "plugin", "virtual assistant", "entertainment"],
+  "homepage": "https://github.com/danielpina/rkw-va-entertainment",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Daniel Pina"
+    }
+  ],
+  "type": "wordpress-plugin",
+  "require": {
+    "php": ">=5.3.2",
+    "composer/installers": "1.0.*"
+  }
+}
