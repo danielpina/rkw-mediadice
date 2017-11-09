@@ -17,8 +17,8 @@ class Rkw_Va {
 	}
 
 	public function enqueueFrontEnd(){
-		wp_enqueue_script('virtual-assistant-script', plugin_dir_url( __FILE__ ) . 'assets/css/va-script.js', array('jquery'), '1.0', true);
-    	wp_enqueue_style('virtual-assistant-style', plugin_dir_url( __FILE__ ) . 'assets/css/va-style.css', null, '1.0');
+		wp_enqueue_script('virtual-assistant-script', plugin_dir_url( __FILE__ ) . '../assets/js/va-script.js', array('jquery'), '1.0', true);
+    	wp_enqueue_style('virtual-assistant-style', plugin_dir_url( __FILE__ ) . '../assets/css/va-style.css', null, '1.0');
 
 	}
 
