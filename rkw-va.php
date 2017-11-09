@@ -22,7 +22,7 @@ require_once( plugin_dir_path( __FILE__ ) . 'includes/class.rkw-va.php' );
 function run_assistant() {
  
     $rkw_assistant = new Rkw_Va();
-    $rkw_assistant->run();
+    //$rkw_assistant->run();
  
 }
  
