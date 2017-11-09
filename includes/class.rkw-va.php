@@ -3,7 +3,8 @@
 defined( 'ABSPATH' ) or exit;
 
 class Rkw_Va {
-	private function __construct() {
+
+	public function __construct() {
 		$dir = dirname( __FILE__ );
 
 		add_action('wp_enqueue_scripts', array($this,'enqueueFrontEnd'));
